@@ -25,8 +25,8 @@ const multiply = (a, b) =>{
   return a * b;
 }
 
-const greeting = (first-name, last-name) =>{
-  return `Hello ${first-name} ${last-name}, nice to meet you!`;
+function greeting (firstname, lastname) =>{
+  return `Hello ${firstname} ${lastname}, nice to meet you!`;
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
