@@ -116,7 +116,9 @@ const unisWithUni = [];
 
 function getUnisWithUni(universities) {
   for (let i=0; i<universities.length; i++) {
-    unisWithUni.push(universities[i].includes("Uni"));
+    if (universities[i].includes("Uni") === true) {
+      unisWithUni.push(universities[i])
+    }
   }  
 }
 
