@@ -12,8 +12,8 @@ const tyro = {
 	diet: 'carnivorous',
 	weight: '7000kg',
 	length: '12m',
-	period: 'Late Cretaceous'
-	function = roar(){
+	period: 'Late Cretaceous',
+	roar: function (){
 		return "RAWERSRARARWERSARARARRRR!"
 	}
 }

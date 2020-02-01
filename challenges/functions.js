@@ -25,7 +25,7 @@ const multiply = (a, b) =>{
   return a * b;
 }
 
-function greeting (firstname, lastname) =>{
+function greeting (firstname, lastname) {
   return `Hello ${firstname} ${lastname}, nice to meet you!`;
 }
 
@@ -40,7 +40,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 // Explain in your own words why nestedfunction can access the variable internal.
 
 // Explanation: 
-Because a function has access to context in it's outer scope, and will look for it there if there is none in it's local environment.
+// Because a function has access to context in it's outer scope, and will look for it there if there is none in it's local environment.
 
 const external = "I'm outside the function";
 
